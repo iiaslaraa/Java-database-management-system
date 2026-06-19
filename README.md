@@ -334,3 +334,798 @@ Em comparação com um CRUD tradicional, este projeto também apresenta:
 - Aplicação de conceitos de Engenharia de Software.
 
 ---
+
+# Banco de Dados
+
+A persistência dos dados é realizada utilizando o **MySQL**, um dos Sistemas Gerenciadores de Banco de Dados Relacionais (SGBDR) mais utilizados no mercado.
+
+Durante o desenvolvimento do projeto foram aplicados conceitos de modelagem relacional, normalização e integridade referencial, permitindo uma estrutura organizada e preparada para futuras expansões.
+
+O banco de dados foi modelado antes da implementação da aplicação Java, seguindo o fluxo recomendado na Engenharia de Software.
+
+---
+
+## Modelagem do Banco
+
+Durante o desenvolvimento foram elaborados:
+
+- Modelo Conceitual (MER)
+- Modelo Lógico
+- Modelo Relacional
+- Diagrama Entidade-Relacionamento (DER)
+- Scripts SQL
+
+Esses documentos permitem compreender toda a estrutura da base de dados antes da implementação.
+
+---
+
+## Estrutura do Banco
+
+```text
+Database
+
+│
+
+├── Tabelas
+
+├── Chaves Primárias
+
+├── Chaves Estrangeiras
+
+├── Relacionamentos
+
+├── Constraints
+
+└── Consultas SQL
+```
+
+---
+
+## Recursos utilizados
+
+✔ Tabelas Relacionais
+
+✔ Chaves Primárias
+
+✔ Chaves Estrangeiras
+
+✔ Relacionamentos
+
+✔ Integridade Referencial
+
+✔ Consultas SQL
+
+✔ Operações CRUD
+
+---
+
+# JDBC
+
+O projeto utiliza **Java Database Connectivity (JDBC)** para realizar toda a comunicação entre a aplicação Java e o banco de dados MySQL.
+
+Essa tecnologia permite:
+
+- Abrir conexões
+- Executar comandos SQL
+- Recuperar registros
+- Atualizar dados
+- Excluir informações
+- Fechar conexões corretamente
+
+---
+
+## Fluxo JDBC
+
+```text
+Aplicação Java
+
+↓
+
+Driver JDBC
+
+↓
+
+Connection
+
+↓
+
+PreparedStatement
+
+↓
+
+ResultSet
+
+↓
+
+Banco MySQL
+```
+
+---
+
+# DAO Pattern
+
+O projeto foi estruturado utilizando o padrão **DAO (Data Access Object)**.
+
+Esse padrão tem como objetivo separar completamente a regra de negócio da camada de acesso ao banco de dados.
+
+Essa organização facilita:
+
+- manutenção;
+- reutilização do código;
+- testes;
+- futuras alterações no banco.
+
+---
+
+## Fluxo do DAO
+
+```text
+Usuário
+
+↓
+
+Controller
+
+↓
+
+DAO
+
+↓
+
+JDBC
+
+↓
+
+MySQL
+```
+
+---
+
+# Programação Orientada a Objetos
+
+O projeto foi desenvolvido aplicando conceitos fundamentais da Programação Orientada a Objetos.
+
+## Conceitos utilizados
+
+| Conceito | Aplicação |
+|----------|-----------|
+| Classe | ✅ |
+| Objeto | ✅ |
+| Encapsulamento | ✅ |
+| Herança | ✅ |
+| Polimorfismo | ✅ |
+| Associação | ✅ |
+| Interface | ✅ |
+| Classe Abstrata | ✅ |
+
+---
+
+# Organização das Classes
+
+A aplicação foi organizada seguindo responsabilidades bem definidas.
+
+## Connection
+
+Responsável por:
+
+- abrir conexão;
+- fechar conexão;
+- configurar JDBC.
+
+---
+
+## Model
+
+Representa as entidades do sistema.
+
+Cada classe Model possui:
+
+- atributos;
+- construtores;
+- getters;
+- setters;
+- métodos específicos.
+
+---
+
+## DAO
+
+Responsável pelas operações no banco.
+
+Entre elas:
+
+- INSERT
+- SELECT
+- UPDATE
+- DELETE
+
+---
+
+## Controller
+
+Coordena o fluxo entre interface, regras de negócio e persistência.
+
+---
+
+## Main
+
+Classe responsável por iniciar a aplicação.
+
+---
+
+# UML
+
+Durante o desenvolvimento foram produzidos diversos diagramas UML.
+
+Entre eles:
+
+- Diagrama de Classes
+- Associações
+- Generalização
+- Interfaces
+- Classes Abstratas
+
+---
+
+## Diagrama de Classes
+
+> Em breve será adicionada uma imagem do Diagrama de Classes.
+
+```text
+assets/
+
+└── uml-class-diagram.png
+```
+
+---
+
+# Banco de Dados
+
+Também serão disponibilizados:
+
+```text
+assets/
+
+├── MER.png
+
+├── DER.png
+
+├── ModeloRelacional.png
+```
+
+---
+
+# Estrutura de Pacotes
+
+```text
+src
+
+├── connection
+
+├── dao
+
+├── model
+
+├── controller
+
+├── view
+
+└── Main.java
+```
+
+---
+
+# Estrutura do Código
+
+O projeto segue uma organização modular.
+
+Cada pacote possui responsabilidade específica.
+
+Essa abordagem melhora:
+
+- organização;
+- manutenção;
+- escalabilidade;
+- reutilização.
+
+---
+
+# Funcionalidades CRUD
+
+## CREATE
+
+Permite cadastrar novos registros.
+
+---
+
+## READ
+
+Permite consultar informações armazenadas.
+
+---
+
+## UPDATE
+
+Permite alterar registros existentes.
+
+---
+
+## DELETE
+
+Permite remover registros do banco.
+
+---
+
+# Recursos Implementados
+
+| Funcionalidade | Status |
+|---------------|--------|
+| Conexão JDBC | ✅ |
+| DAO Pattern | ✅ |
+| CRUD | ✅ |
+| Banco MySQL | ✅ |
+| OOP | ✅ |
+| UML | ✅ |
+| Associação | ✅ |
+| Herança | ✅ |
+| Interface | ✅ |
+| Classe Abstrata | ✅ |
+
+---
+
+# Instalação
+
+## Pré-requisitos
+
+- Java JDK 17 ou superior
+- NetBeans IDE
+- MySQL Server
+- MySQL Workbench
+- Git
+
+---
+
+## Clone o repositório
+
+```bash
+git clone https://github.com/iiaslaraa/database-management-system-java.git
+```
+
+---
+
+## Abra o projeto
+
+Importe o projeto utilizando o NetBeans IDE.
+
+---
+
+## Configure o banco
+
+1. Abra o MySQL Workbench.
+
+2. Execute o script SQL localizado em:
+
+```text
+database/database.sql
+```
+
+3. Configure usuário e senha na classe de conexão.
+
+---
+
+## Execute
+
+Após configurar o banco de dados, execute:
+
+```text
+Main.java
+```
+
+---
+
+# Estrutura SQL
+
+Os scripts SQL serão organizados em:
+
+```text
+database/
+
+├── database.sql
+
+├── inserts.sql
+
+├── updates.sql
+
+└── queries.sql
+```
+
+---
+
+# Objetivos Acadêmicos
+
+Além da implementação técnica, o projeto teve como finalidade desenvolver competências em:
+
+- Engenharia de Software
+- Banco de Dados
+- Programação Java
+- Arquitetura de Sistemas
+- Persistência
+- Modelagem
+- UML
+- Organização de Código
+- Desenvolvimento Backend
+
+---
+
+# Aprendizados
+
+Durante o desenvolvimento foram aprofundados conhecimentos em:
+
+- Java
+- JDBC
+- SQL
+- MySQL
+- DAO Pattern
+- Engenharia de Software
+- UML
+- Banco de Dados
+- Arquitetura em Camadas
+- Programação Orientada a Objetos
+
+---
+
+# Demonstração
+
+Em breve serão adicionadas capturas de tela da aplicação para demonstrar o funcionamento do sistema.
+
+## Tela Principal
+
+<p align="center">
+<img src="./assets/home.png" width="900">
+</p>
+
+---
+
+## Cadastro de Registros
+
+<p align="center">
+<img src="./assets/cadastro.png" width="900">
+</p>
+
+---
+
+## Consulta de Dados
+
+<p align="center">
+<img src="./assets/consulta.png" width="900">
+</p>
+
+---
+
+## Banco de Dados
+
+<p align="center">
+<img src="./assets/database.png" width="900">
+</p>
+
+---
+
+# Modelagem UML
+
+A modelagem UML foi utilizada durante o desenvolvimento para representar visualmente a estrutura do sistema antes da implementação.
+
+Os diagramas documentam os relacionamentos entre as classes, facilitando futuras manutenções e a compreensão da arquitetura.
+
+## Diagramas
+
+- Diagrama de Classes
+- Diagrama de Casos de Uso
+- Diagrama de Atividades
+- Diagrama de Sequência
+- Diagrama de Pacotes
+
+---
+
+## Diagrama de Classes
+
+<p align="center">
+
+<img src="./assets/uml-class-diagram.png" width="950">
+
+</p>
+
+---
+
+# Modelagem do Banco de Dados
+
+Toda a estrutura do banco foi modelada antes do desenvolvimento da aplicação.
+
+## Diagramas disponíveis
+
+- Modelo Entidade Relacionamento (MER)
+- Diagrama Entidade Relacionamento (DER)
+- Modelo Relacional
+
+---
+
+## MER
+
+<p align="center">
+
+<img src="./assets/mer.png" width="900">
+
+</p>
+
+---
+
+## DER
+
+<p align="center">
+
+<img src="./assets/der.png" width="900">
+
+</p>
+
+---
+
+## Modelo Relacional
+
+<p align="center">
+
+<img src="./assets/modelo-relacional.png" width="900">
+
+</p>
+
+---
+
+# Estrutura do Projeto
+
+```text
+database-management-system-java
+
+│
+
+├── assets/
+│
+├── database/
+│
+├── docs/
+│
+├── src/
+│   ├── connection/
+│   ├── controller/
+│   ├── dao/
+│   ├── model/
+│   ├── view/
+│   └── Main.java
+│
+├── LICENSE
+│
+├── README.md
+│
+└── .gitignore
+```
+
+---
+
+# Organização dos Pacotes
+
+## connection
+
+Responsável por estabelecer a conexão entre a aplicação Java e o banco MySQL utilizando JDBC.
+
+---
+
+## dao
+
+Implementa todas as operações de persistência de dados utilizando o padrão DAO.
+
+---
+
+## model
+
+Representa as entidades da aplicação através de classes Java.
+
+---
+
+## controller
+
+Centraliza o fluxo de execução e coordena a comunicação entre interface, modelos e persistência.
+
+---
+
+## view
+
+Responsável pela interação com o usuário.
+
+---
+
+# Fluxo da Aplicação
+
+```text
+Usuário
+
+↓
+
+Interface
+
+↓
+
+Controller
+
+↓
+
+Model
+
+↓
+
+DAO
+
+↓
+
+JDBC
+
+↓
+
+MySQL
+
+↓
+
+Resultado
+```
+
+---
+
+# Boas Práticas Aplicadas
+
+Durante o desenvolvimento foram adotadas diversas boas práticas de Engenharia de Software.
+
+- Organização em camadas
+- Programação Orientada a Objetos
+- Separação de responsabilidades
+- Reutilização de código
+- DAO Pattern
+- Encapsulamento
+- Modularização
+- Tratamento de exceções
+- Código legível
+- Convenções da linguagem Java
+
+---
+
+# Engenharia de Software
+
+Este projeto aplica diversos conceitos fundamentais da Engenharia de Software.
+
+| Área | Aplicação |
+|------|-----------|
+| Análise | ✅ |
+| Projeto | ✅ |
+| Implementação | ✅ |
+| Banco de Dados | ✅ |
+| Modelagem UML | ✅ |
+| Persistência | ✅ |
+| Testes | Em evolução |
+| Documentação | ✅ |
+
+---
+
+# Roadmap
+
+## Versão Atual
+
+- [x] Estrutura do projeto
+- [x] Programação Orientada a Objetos
+- [x] DAO Pattern
+- [x] JDBC
+- [x] Banco de Dados
+- [x] CRUD
+- [x] UML
+- [x] Documentação
+
+---
+
+## Próximas Implementações
+
+- [ ] Interface gráfica aprimorada
+- [ ] Sistema de autenticação
+- [ ] Controle de permissões
+- [ ] Logs da aplicação
+- [ ] Exportação de relatórios
+- [ ] API REST com Spring Boot
+- [ ] Docker
+- [ ] Testes Unitários (JUnit)
+- [ ] CI/CD com GitHub Actions
+
+---
+
+# Melhorias Futuras
+
+O projeto continuará evoluindo com foco em tecnologias utilizadas no mercado.
+
+Entre as melhorias planejadas estão:
+
+- Migração para Spring Boot
+- Implementação de API REST
+- Integração com Docker
+- Documentação utilizando Swagger
+- Testes automatizados
+- Pipeline CI/CD
+- Deploy em ambiente Cloud
+- Arquitetura baseada em camadas
+- Aplicação de princípios SOLID
+- Clean Architecture
+
+---
+
+# Resultados de Aprendizagem
+
+Este projeto contribuiu para o desenvolvimento das seguintes competências:
+
+- Desenvolvimento Backend
+- Banco de Dados Relacional
+- Modelagem UML
+- Engenharia de Software
+- Programação Java
+- SQL
+- JDBC
+- DAO Pattern
+- Versionamento com Git
+- Organização de Projetos
+
+---
+
+# Como Contribuir
+
+Contribuições são bem-vindas.
+
+Caso deseje colaborar:
+
+1. Faça um Fork do projeto.
+2. Crie uma nova Branch.
+3. Realize suas alterações.
+4. Envie um Pull Request.
+
+---
+
+# Licença
+
+Este projeto está licenciado sob a Licença MIT.
+
+Consulte o arquivo **LICENSE** para mais informações.
+
+---
+
+# Autor
+
+## Iasmim Lima Lara Cardoso
+
+Software Engineering Student  
+Data Analytics Student  
+IT Technician
+
+📍 Brasília – DF
+
+### Contato
+
+- GitHub: https://github.com/iiaslaraa
+- LinkedIn: https://www.linkedin.com/in/iiaslaraa/
+- Email: iasmimlaracardoso@gmail.com
+
+---
+
+<div align="center">
+
+## ⭐ Se este projeto foi útil para você, considere deixar uma estrela!
+
+Isso incentiva a continuidade do desenvolvimento e da documentação do projeto.
+
+</div>
+
+---
+
+<div align="center">
+
+**"Transformando conhecimento acadêmico em soluções de software organizadas, escaláveis e orientadas às boas práticas da Engenharia de Software."**
+
+</div>
