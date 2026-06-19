@@ -24,6 +24,22 @@ Aplicando conceitos de **Engenharia de Software**, **Banco de Dados Relacionais*
 
 ---
 
+## 📑 Índice
+
+- 📖 Sobre
+- 🎯 Objetivos
+- 🚧 Status
+- 🛠 Tecnologias
+- 📂 Estrutura
+- 🏗 Arquitetura
+- 🗄 Banco de Dados
+- 📐 Modelagem
+- 🗺 Roadmap
+- 📄 Licença
+- 👩‍💻 Autora
+
+---
+
 ## 📖 Sobre
 
 O **Sistema de Gerenciamento para Clínica Médica** é um projeto acadêmico desenvolvido como parte da formação no **Curso Técnico em Informática** da **Escola Técnica de Brasília (ETB)**.
@@ -65,6 +81,7 @@ O projeto está sendo desenvolvido de forma incremental, acompanhando as etapas 
 | Operações CRUD | ⏳ Planejado |
 | Testes | ⏳ Planejado |
 | Documentação Final | ⏳ Planejado |
+
 ---
 
 ## 🛠️ Tecnologias Utilizadas
@@ -82,7 +99,7 @@ O projeto está sendo desenvolvido de forma incremental, acompanhando as etapas 
 
 ---
 
-# 📂 Estrutura do Projeto
+## 📂 Estrutura do Projeto
 
 ```text
 Java-database-management-system
@@ -106,28 +123,37 @@ A estrutura do projeto será expandida conforme novas funcionalidades forem send
 
 ---
 
-# 🏗️ Arquitetura do Projeto
+## 🏗️ Arquitetura do Projeto
 
 O projeto está sendo desenvolvido seguindo uma arquitetura em camadas, buscando manter a organização e facilitar futuras manutenções.
 
 ```text
-Usuário
-    │
-    ▼
-Aplicação Java
-    │
-    ▼
-JDBC
-    │
-    ▼
-MySQL
+┌──────────────┐
+│   Usuário    │
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│ Aplicação    │
+│     Java     │
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│     JDBC     │
+└──────┬───────┘
+       │
+       ▼
+┌──────────────┐
+│    MySQL     │
+└──────────────┘
 ```
 
 Conforme o desenvolvimento avançar, novas camadas serão adicionadas, incluindo entidades, DAOs e demais componentes da aplicação.
 
 ---
 
-# 🗄️ Banco de Dados
+## 🗄️ Banco de Dados
 
 O banco de dados representa a primeira etapa concluída do projeto e constitui a base para toda a aplicação.
 
@@ -141,13 +167,13 @@ Nesta fase foram desenvolvidos:
 - Chaves estrangeiras;
 - Scripts SQL de criação da base.
 
-Toda a implementação da aplicação Java será construída sobre essa estrutura.
+O banco de dados servirá como base para as próximas etapas de desenvolvimento da aplicação.
 
 ---
 
-# 📐 Modelagem
+## 📐 Modelagem
 
-Durante o desenvolvimento estão sendo produzidos os seguintes artefatos:
+Atualmente o projeto possui os seguintes artefatos de modelagem:
 
 - ✔ Modelo Entidade-Relacionamento (MER)
 - ✔ Modelo Relacional
@@ -173,9 +199,10 @@ Os diagramas serão adicionados ao repositório conforme forem finalizados.
 | v0.9.0 | Testes da Aplicação | ⏳ |
 | v1.0.0 | Primeira Versão Estável | ⏳ |
 
+
 ---
 
-# 📌 Próximas Implementações
+##📌 Próximas Implementações
 
 As próximas etapas previstas para o desenvolvimento do projeto incluem:
 
@@ -202,7 +229,7 @@ As próximas etapas previstas para o desenvolvimento do projeto incluem:
 
 ---
 
-# 📄 Licença
+## 📄 Licença
 
 Este projeto está licenciado sob a **Licença MIT**.
 
@@ -222,15 +249,13 @@ Consulte o arquivo **LICENSE** para mais informações.
 
 ---
 
-# 👩‍💻 Autora
+## 👩‍💻 Autora
 
 <div align="center">
 
 ## Iasmim Lima Lara Cardoso
 
-**Software Engineering Student**  
-**Data Analytics Student**  
-**IT Technician**
+Software Engineering Student • Data Analytics Student • IT Technician
 
 📍 Brasília - DF, Brasil
 
@@ -240,21 +265,9 @@ Consulte o arquivo **LICENSE** para mais informações.
 
 ## 📫 Contato
 
-<p align="left">
-
-<a href="https://github.com/iiaslaraa">
-<img src="https://img.shields.io/badge/GitHub-iiaslaraa-181717?style=for-the-badge&logo=github&logoColor=white">
-</a>
-
-<a href="https://www.linkedin.com/in/iiaslaraa/">
-<img src="https://img.shields.io/badge/LinkedIn-Iasmim%20Lima%20Lara%20Cardoso-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
-</a>
-
-<a href="mailto:iasmimlaracardoso@gmail.com">
-<img src="https://img.shields.io/badge/Email-iasmimlaracardoso@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
-</a>
-
-</p>
+- **GitHub:** https://github.com/iiaslaraa
+- **LinkedIn:** https://www.linkedin.com/in/iiaslaraa/
+- **E-mail:** iasmimlaracardoso@gmail.com
 
 ---
 
