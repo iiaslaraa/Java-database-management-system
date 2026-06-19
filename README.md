@@ -4,165 +4,108 @@
 
 ### *Medical Clinic Management System*
 
-Projeto acadêmico desenvolvido para aplicação prática de conceitos de **Engenharia de Software**, **Banco de Dados Relacionais** e **Programação Orientada a Objetos**, utilizando **Java** e **MySQL**.
+Projeto acadêmico desenvolvido durante o **Curso Técnico em Informática** da **Escola Técnica de Brasília (ETB)**.
+
+Aplicando conceitos de **Engenharia de Software**, **Banco de Dados Relacionais**, **Programação Orientada a Objetos** e **Desenvolvimento Backend**.
 
 <br>
 
 ![Status](https://img.shields.io/badge/Status-Em%20Desenvolvimento-orange?style=for-the-badge)
 
-![Java](https://img.shields.io/badge/Java-Em%20Desenvolvimento-ED8B00?style=for-the-badge\&logo=openjdk\&logoColor=white)
+![Java](https://img.shields.io/badge/Java-17-ED8B00?style=for-the-badge&logo=openjdk&logoColor=white)
 
-![MySQL](https://img.shields.io/badge/MySQL-Implementado-4479A1?style=for-the-badge\&logo=mysql\&logoColor=white)
+![MySQL](https://img.shields.io/badge/MySQL-4479A1?style=for-the-badge&logo=mysql&logoColor=white)
 
-![SQL](https://img.shields.io/badge/SQL-Implementado-blue?style=for-the-badge)
+![Git](https://img.shields.io/badge/Git-F05032?style=for-the-badge&logo=git&logoColor=white)
 
-![UML](https://img.shields.io/badge/UML-Em%20Desenvolvimento-purple?style=for-the-badge)
-
-![Git](https://img.shields.io/badge/Git-Versionamento-F05032?style=for-the-badge\&logo=git\&logoColor=white)
-
-![GitHub](https://img.shields.io/badge/GitHub-Repositório-181717?style=for-the-badge\&logo=github)
+![GitHub](https://img.shields.io/badge/GitHub-181717?style=for-the-badge&logo=github)
 
 </div>
 
 ---
 
-# 📖 Sobre o Projeto
+## 📖 Sobre
 
-O **Sistema de Gerenciamento para Clínica Médica** é um projeto acadêmico desenvolvido durante o **Curso Técnico em Informática** da **Escola Técnica de Brasília (ETB)**.
+O **Sistema de Gerenciamento para Clínica Médica** é um projeto acadêmico desenvolvido como parte da formação no **Curso Técnico em Informática** da **Escola Técnica de Brasília (ETB)**.
 
-O objetivo deste projeto é aplicar, de forma prática, os conhecimentos adquiridos ao longo da formação, integrando conceitos de Engenharia de Software, Banco de Dados Relacionais, Modelagem de Sistemas e Programação Orientada a Objetos.
+O projeto tem como objetivo desenvolver uma aplicação para gerenciamento de clínicas médicas, colocando em prática conhecimentos de Engenharia de Software, Banco de Dados Relacionais, Programação Orientada a Objetos e Java.
 
-O desenvolvimento está sendo realizado de forma incremental, acompanhando as etapas clássicas do ciclo de desenvolvimento de software. A primeira fase concentra-se na modelagem do banco de dados e na documentação técnica, servindo como base para a futura implementação da aplicação em Java integrada ao MySQL.
-
-Mais do que desenvolver uma aplicação funcional, este repositório busca documentar cada etapa do processo de desenvolvimento, permitindo acompanhar sua evolução desde o planejamento até a implementação completa.
+Atualmente o projeto encontra-se em desenvolvimento. Nesta fase inicial foram realizados o levantamento de requisitos, a modelagem do banco de dados e a estruturação da documentação técnica, que servirão como base para a implementação da aplicação.
 
 ---
 
-# 🎓 Contexto Acadêmico
+## 🎯 Objetivos
 
-| Informação          | Detalhes                         |
-| ------------------- | -------------------------------- |
-| **Instituição**     | Escola Técnica de Brasília (ETB) |
-| **Curso**           | Técnico em Informática           |
-| **Área de Estudo**  | Engenharia de Software           |
-| **Tipo de Projeto** | Projeto Acadêmico                |
-| **Status**          | Em desenvolvimento               |
-
----
-
-# 🎯 Objetivos
-
-Este projeto tem como objetivo desenvolver um sistema para gerenciamento de clínicas médicas, aplicando os conhecimentos adquiridos durante a formação técnica.
-
-Os principais objetivos são:
-
-* Desenvolver uma aplicação para gerenciamento de clínicas médicas;
-* Aplicar conceitos de Engenharia de Software;
-* Modelar um banco de dados relacional utilizando MySQL;
-* Implementar a aplicação em Java utilizando Programação Orientada a Objetos;
-* Integrar a aplicação ao banco de dados utilizando JDBC;
-* Organizar o projeto seguindo boas práticas de desenvolvimento;
-* Documentar todas as etapas do processo de desenvolvimento;
-* Consolidar conhecimentos em Banco de Dados, Java e Modelagem de Sistemas.
+- Desenvolver um sistema para gerenciamento de clínicas médicas.
+- Aplicar conceitos de Engenharia de Software.
+- Desenvolver uma aplicação em Java.
+- Integrar Java e MySQL utilizando JDBC.
+- Aplicar Programação Orientada a Objetos.
+- Organizar o projeto utilizando boas práticas de desenvolvimento.
+- Documentar todas as etapas do projeto.
 
 ---
 
 # 🚧 Status do Projeto
 
-O projeto encontra-se atualmente em desenvolvimento.
+> **Status Atual:** Em desenvolvimento
 
-As etapas concluídas e planejadas são apresentadas abaixo.
+O projeto está sendo desenvolvido de forma incremental, acompanhando as etapas do Curso Técnico em Informática. Atualmente, a fase de modelagem do banco de dados foi concluída e a implementação da aplicação em Java está em andamento.
 
-| Etapa                       | Status |
-| --------------------------- | :----: |
-| Levantamento de Requisitos  |    ✅   |
-| Planejamento Inicial        |    ✅   |
-| Modelagem do Banco de Dados |    ✅   |
-| Scripts SQL                 |    ✅   |
-| Modelagem UML               |   🚧   |
-| Estrutura Inicial em Java   |   🚧   |
-| Implementação das Entidades |    ⏳   |
-| Integração JDBC             |    ⏳   |
-| Camada DAO                  |    ⏳   |
-| Operações CRUD              |    ⏳   |
-| Testes                      |    ⏳   |
-| Documentação Final          |    ⏳   |
-
----
-
-# 🗺️ Processo de Desenvolvimento
-
-Este projeto está sendo desenvolvido de forma incremental, seguindo uma abordagem baseada nas etapas clássicas da Engenharia de Software.
-
-```text
-Planejamento
-      │
-      ▼
-Levantamento de Requisitos
-      │
-      ▼
-Modelagem do Banco de Dados
-      │
-      ▼
-Scripts SQL
-      │
-      ▼
-Modelagem UML
-      │
-      ▼
-Desenvolvimento em Java
-      │
-      ▼
-Integração JDBC
-      │
-      ▼
-Implementação CRUD
-      │
-      ▼
-Testes
-      │
-      ▼
-Versão 1.0
-```
-
-Cada etapa será documentada conforme a evolução do projeto.
+| Etapa | Status |
+|-------|:------:|
+| Planejamento | ✅ |
+| Levantamento de Requisitos | ✅ |
+| Modelagem do Banco de Dados | ✅ |
+| Scripts SQL | ✅ |
+| Modelagem UML | 🚧 |
+| Desenvolvimento em Java | 🚧 |
+| Integração JDBC | ⏳ |
+| Camada DAO | ⏳ |
+| Operações CRUD | ⏳ |
+| Testes | ⏳ |
+| Documentação Final | ⏳ |
 
 ---
 
 # 🛠️ Tecnologias Utilizadas
 
-O projeto utiliza tecnologias amplamente empregadas no desenvolvimento de aplicações backend e bancos de dados relacionais. Algumas tecnologias já fazem parte da implementação atual, enquanto outras serão incorporadas nas próximas etapas do desenvolvimento.
+### Linguagens
 
-| Categoria                   | Tecnologia         |         Status        |
-| --------------------------- | ------------------ | :-------------------: |
-| Linguagem de Programação    | Java               | 🚧 Em desenvolvimento |
-| Banco de Dados              | MySQL              |     ✅ Implementado    |
-| Linguagem de Consulta       | SQL                |     ✅ Implementado    |
-| Modelagem de Banco de Dados | MySQL Workbench    |     ✅ Implementado    |
-| Modelagem UML               | Astah Professional | 🚧 Em desenvolvimento |
-| Versionamento               | Git                |      ✅ Utilizado      |
-| Repositório Remoto          | GitHub             |      ✅ Utilizado      |
-| IDE                         | NetBeans           | 🚧 Em desenvolvimento |
+<p>
+<img src="https://skillicons.dev/icons?i=java,mysql,git,github" />
+</p>
+
+### Ferramentas
+
+- NetBeans
+- MySQL Workbench
+- Astah Professional
+- Git
+- GitHub
+
+### Tecnologias previstas para as próximas etapas
+
+- JDBC
+- DAO Pattern
+- Programação Orientada a Objetos
+- SQL
+- UML
 
 ---
 
-# 📁 Estrutura do Projeto
-
-A organização do projeto seguirá uma estrutura modular, facilitando a manutenção e a evolução do sistema.
+# 📂 Estrutura do Projeto
 
 ```text
 Java-database-management-system
 │
 ├── database/
 │   ├── ClinicaMedica_Script.sql
-│   ├── ClinicaMedica_backupcompleto.sql
-│   └── (Novos scripts serão adicionados)
+│   └── ClinicaMedica_backupcompleto.sql
 │
 ├── docs/
-│   └── Documentação técnica (em desenvolvimento)
 │
 ├── src/
-│   └── Código-fonte Java (em desenvolvimento)
 │
 ├── README.md
 │
@@ -171,129 +114,158 @@ Java-database-management-system
 └── .gitignore
 ```
 
-A estrutura será atualizada conforme novas funcionalidades forem implementadas.
+A estrutura do projeto será expandida conforme novas funcionalidades forem sendo implementadas.
+
+---
+
+# 🏗️ Arquitetura do Projeto
+
+O projeto está sendo desenvolvido seguindo uma arquitetura em camadas, buscando manter a organização e facilitar futuras manutenções.
+
+```text
+Usuário
+    │
+    ▼
+Aplicação Java
+    │
+    ▼
+JDBC
+    │
+    ▼
+MySQL
+```
+
+Conforme o desenvolvimento avançar, novas camadas serão adicionadas, incluindo entidades, DAOs e demais componentes da aplicação.
 
 ---
 
 # 🗄️ Banco de Dados
 
-O banco de dados representa a primeira etapa técnica do projeto e constitui a base para toda a aplicação.
+O banco de dados representa a primeira etapa concluída do projeto e constitui a base para toda a aplicação.
 
-Seu desenvolvimento foi realizado utilizando o **MySQL**, com modelagem elaborada no **MySQL Workbench**, priorizando organização, integridade dos dados e facilidade de manutenção.
+Nesta fase foram desenvolvidos:
 
-Nesta etapa foram desenvolvidos:
+- Modelagem do banco de dados;
+- Estrutura das tabelas;
+- Definição das entidades;
+- Relacionamentos;
+- Chaves primárias;
+- Chaves estrangeiras;
+- Scripts SQL de criação da base.
 
-* Estrutura inicial do banco de dados;
-* Modelagem relacional;
-* Definição das entidades;
-* Relacionamentos entre tabelas;
-* Chaves primárias e estrangeiras;
-* Scripts SQL para criação da base de dados.
-
-Os scripts presentes neste repositório serão utilizados posteriormente pela aplicação Java através da integração com JDBC.
-
----
-
-# 📐 Modelagem do Sistema
-
-Antes do desenvolvimento da aplicação foi iniciada a etapa de modelagem do sistema.
-
-Essa fase tem como objetivo reduzir erros durante a implementação, além de facilitar a compreensão da arquitetura do software.
-
-Os seguintes artefatos fazem parte da documentação do projeto:
-
-* Modelo Entidade-Relacionamento (MER);
-* Diagrama Entidade-Relacionamento (DER);
-* Modelo Relacional;
-* Diagrama de Classes (UML);
-* Documentação complementar.
-
-Esses documentos serão disponibilizados conforme forem sendo finalizados.
+Toda a implementação da aplicação Java será construída sobre essa estrutura.
 
 ---
 
-# 🧠 Conceitos Aplicados
+# 📐 Modelagem
 
-Durante o desenvolvimento deste projeto estão sendo aplicados diversos conceitos estudados ao longo da formação.
+Durante o desenvolvimento estão sendo produzidos os seguintes artefatos:
 
-| Conceito                        | Status |
-| ------------------------------- | :----: |
-| Engenharia de Software          |    ✅   |
-| Banco de Dados Relacionais      |    ✅   |
-| SQL                             |    ✅   |
-| Modelagem de Sistemas           |    ✅   |
-| Programação Orientada a Objetos |   🚧   |
-| UML                             |   🚧   |
-| JDBC                            |    ⏳   |
-| DAO Pattern                     |    ⏳   |
-| CRUD                            |    ⏳   |
+- ✔ Modelo Entidade-Relacionamento (MER)
+- ✔ Modelo Relacional
+- 🚧 Diagrama de Classes (UML)
+- 🚧 Documentação Técnica
+
+Os diagramas serão adicionados ao repositório conforme forem finalizados.
 
 ---
 
-# 📚 Competências Desenvolvidas
+# 🗺️ Roadmap
 
-Este projeto contribui para o desenvolvimento das seguintes competências técnicas:
+O desenvolvimento do projeto está dividido em etapas, permitindo acompanhar sua evolução ao longo da implementação.
 
-* Engenharia de Software;
-* Banco de Dados Relacionais;
-* Modelagem UML;
-* SQL;
-* Programação Orientada a Objetos;
-* Organização de Projetos;
-* Documentação Técnica;
-* Versionamento com Git e GitHub.
-
-Além do desenvolvimento técnico, o projeto também fortalece competências relacionadas ao planejamento, organização e documentação de software.
-
----
-
-# 📅 Roadmap
-
-As próximas etapas previstas para o desenvolvimento do projeto são:
-
-| Etapa                            | Status |
-| -------------------------------- | :----: |
-| Estrutura Inicial do Projeto     |    ✅   |
-| Banco de Dados                   |    ✅   |
-| Scripts SQL                      |    ✅   |
-| Modelagem UML                    |   🚧   |
-| Desenvolvimento das Classes Java |    ⏳   |
-| Implementação das Entidades      |    ⏳   |
-| Camada DAO                       |    ⏳   |
-| Integração JDBC                  |    ⏳   |
-| Operações CRUD                   |    ⏳   |
-| Interface da Aplicação           |    ⏳   |
-| Testes                           |    ⏳   |
-| Documentação Final               |    ⏳   |
-
-Este roadmap será atualizado continuamente conforme o avanço do projeto.
+| Versão | Objetivo | Status |
+|:-------:|----------|:------:|
+| v0.1.0 | Planejamento do Projeto | ✅ |
+| v0.2.0 | Modelagem do Banco de Dados | ✅ |
+| v0.3.0 | Scripts SQL | ✅ |
+| v0.4.0 | Modelagem UML | 🚧 |
+| v0.5.0 | Estrutura Inicial em Java | 🚧 |
+| v0.6.0 | Integração JDBC | ⏳ |
+| v0.7.0 | Implementação da Camada DAO | ⏳ |
+| v0.8.0 | Operações CRUD | ⏳ |
+| v0.9.0 | Testes da Aplicação | ⏳ |
+| v1.0.0 | Primeira Versão Estável | ⏳ |
 
 ---
 
-# 🚀 Próximas Etapas
+# 📌 Próximas Implementações
 
-As próximas fases previstas incluem:
+As próximas etapas previstas para o desenvolvimento do projeto incluem:
 
-* Implementação das classes Java;
-* Desenvolvimento das entidades do sistema;
-* Criação da camada DAO;
-* Integração entre Java e MySQL utilizando JDBC;
-* Implementação das operações CRUD;
-* Organização da arquitetura da aplicação;
-* Aprimoramento da documentação técnica;
-* Finalização dos diagramas UML.
-
-O objetivo é desenvolver o projeto de forma incremental, priorizando qualidade, organização e documentação.
+- Implementação das classes do domínio;
+- Desenvolvimento da camada de persistência (DAO);
+- Integração com o banco de dados utilizando JDBC;
+- Implementação das operações CRUD;
+- Organização da arquitetura da aplicação;
+- Finalização da modelagem UML;
+- Aprimoramento da documentação técnica.
 
 ---
 
-# 📖 Evolução do Projeto
+# 📚 Documentação
 
-Este repositório foi planejado para acompanhar toda a evolução do sistema.
+A documentação do projeto será ampliada conforme sua evolução.
 
-Cada nova funcionalidade será implementada de forma gradual e devidamente documentada, permitindo registrar o progresso do projeto ao longo do tempo.
-
-Essa abordagem busca aproximar o desenvolvimento do projeto às boas práticas utilizadas em ambientes profissionais de desenvolvimento de software.
+| Documento | Status |
+|-----------|:------:|
+| README | ✅ |
+| Banco de Dados | 🚧 |
+| UML | 🚧 |
+| Arquitetura | ⏳ |
+| Changelog | ⏳ |
+| Roadmap | ⏳ |
 
 ---
 
+# 📄 Licença
+
+Este projeto está licenciado sob a **Licença MIT**.
+
+Consulte o arquivo **LICENSE** para mais informações.
+
+---
+
+# 👩‍💻 Autora
+
+<div align="center">
+
+## Iasmim Lima Lara Cardoso
+
+**Software Engineering Student**  
+**Data Analytics Student**  
+**IT Technician**
+
+📍 Brasília - DF, Brasil
+
+</div>
+
+---
+
+## 📫 Contato
+
+<p align="left">
+
+<a href="https://github.com/iiaslaraa">
+<img src="https://img.shields.io/badge/GitHub-iiaslaraa-181717?style=for-the-badge&logo=github&logoColor=white">
+</a>
+
+<a href="https://www.linkedin.com/in/iiaslaraa/">
+<img src="https://img.shields.io/badge/LinkedIn-Iasmim%20Lima%20Lara%20Cardoso-0A66C2?style=for-the-badge&logo=linkedin&logoColor=white">
+</a>
+
+<a href="mailto:iasmimlaracardoso@gmail.com">
+<img src="https://img.shields.io/badge/Email-iasmimlaracardoso@gmail.com-EA4335?style=for-the-badge&logo=gmail&logoColor=white">
+</a>
+
+</p>
+
+---
+
+<div align="center">
+
+### ⭐ Se este projeto foi interessante para você, considere deixar uma estrela no repositório.
+
+Ela ajuda a apoiar o desenvolvimento e incentiva a continuidade do projeto.
+
+</div>
