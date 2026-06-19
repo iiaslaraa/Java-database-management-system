@@ -46,51 +46,39 @@ Atualmente o projeto encontra-se em desenvolvimento. Nesta fase inicial foram re
 
 ---
 
-# 🚧 Status do Projeto
+## 🚧 Status do Projeto
 
 > **Status Atual:** Em desenvolvimento
 
 O projeto está sendo desenvolvido de forma incremental, acompanhando as etapas do Curso Técnico em Informática. Atualmente, a fase de modelagem do banco de dados foi concluída e a implementação da aplicação em Java está em andamento.
 
 | Etapa | Status |
-|-------|:------:|
-| Planejamento | ✅ |
-| Levantamento de Requisitos | ✅ |
-| Modelagem do Banco de Dados | ✅ |
-| Scripts SQL | ✅ |
-| Modelagem UML | 🚧 |
-| Desenvolvimento em Java | 🚧 |
-| Integração JDBC | ⏳ |
-| Camada DAO | ⏳ |
-| Operações CRUD | ⏳ |
-| Testes | ⏳ |
-| Documentação Final | ⏳ |
-
+|:-------|:------:|
+| Planejamento | ✅ Concluído |
+| Levantamento de Requisitos | ✅ Concluído |
+| Modelagem do Banco de Dados | ✅ Concluído |
+| Scripts SQL | ✅ Concluído |
+| Modelagem UML | 🚧 Em desenvolvimento |
+| Desenvolvimento em Java | 🚧 Em desenvolvimento |
+| Integração JDBC | ⏳ Planejado |
+| Camada DAO | ⏳ Planejado |
+| Operações CRUD | ⏳ Planejado |
+| Testes | ⏳ Planejado |
+| Documentação Final | ⏳ Planejado |
 ---
 
-# 🛠️ Tecnologias Utilizadas
+## 🛠️ Tecnologias Utilizadas
 
-### Linguagens
-
-<p>
-<img src="https://skillicons.dev/icons?i=java,mysql,git,github" />
-</p>
-
-### Ferramentas
-
-- NetBeans
-- MySQL Workbench
-- Astah Professional
-- Git
-- GitHub
-
-### Tecnologias previstas para as próximas etapas
-
-- JDBC
-- DAO Pattern
-- Programação Orientada a Objetos
-- SQL
-- UML
+| Categoria | Tecnologia | Status |
+|:-----------|:-----------|:------:|
+| Linguagem | Java | 🚧 |
+| Banco de Dados | MySQL | ✅ |
+| Linguagem SQL | SQL | ✅ |
+| Modelagem | MySQL Workbench | ✅ |
+| UML | Astah Professional | 🚧 |
+| Versionamento | Git | ✅ |
+| Repositório | GitHub | ✅ |
+| IDE | NetBeans | 🚧 |
 
 ---
 
@@ -170,12 +158,10 @@ Os diagramas serão adicionados ao repositório conforme forem finalizados.
 
 ---
 
-# 🗺️ Roadmap
-
-O desenvolvimento do projeto está dividido em etapas, permitindo acompanhar sua evolução ao longo da implementação.
+## 🗺️ Roadmap
 
 | Versão | Objetivo | Status |
-|:-------:|----------|:------:|
+|:-------:|:----------|:------:|
 | v0.1.0 | Planejamento do Projeto | ✅ |
 | v0.2.0 | Modelagem do Banco de Dados | ✅ |
 | v0.3.0 | Scripts SQL | ✅ |
@@ -203,18 +189,16 @@ As próximas etapas previstas para o desenvolvimento do projeto incluem:
 
 ---
 
-# 📚 Documentação
-
-A documentação do projeto será ampliada conforme sua evolução.
+## 📚 Documentação
 
 | Documento | Status |
-|-----------|:------:|
+|:-----------|:------:|
 | README | ✅ |
 | Banco de Dados | 🚧 |
 | UML | 🚧 |
 | Arquitetura | ⏳ |
-| Changelog | ⏳ |
-| Roadmap | ⏳ |
+| CHANGELOG | ⏳ |
+| ROADMAP | ⏳ |
 
 ---
 
@@ -223,6 +207,18 @@ A documentação do projeto será ampliada conforme sua evolução.
 Este projeto está licenciado sob a **Licença MIT**.
 
 Consulte o arquivo **LICENSE** para mais informações.
+
+---
+
+## 🎓 Contexto Acadêmico
+
+| Informação | Detalhes |
+|:------------|:---------|
+| Instituição | Escola Técnica de Brasília (ETB) |
+| Curso | Técnico em Informática |
+| Área | Engenharia de Software |
+| Tipo de Projeto | Projeto Acadêmico |
+| Status | 🚧 Em desenvolvimento |
 
 ---
 
