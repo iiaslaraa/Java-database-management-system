@@ -49,13 +49,15 @@ public class Paciente extends Pessoa{
         this.exame = exame;
     }
     public String toString(){
-        return "\n .... PACIENTE ...." +
-                "\n Nome:" + getNome() +
-                "\n CPF:" + getCpf() +
-                "\n Telefone:" + getTelefone()+
-                "\n Email:" + getEmail() +
-                "\n Data de Nascimento:" + getDataNascimento() +
-                "\n Endereço:" + getEndereco();
+        return  "\n ________________________________" +
+                "\n ..........  PACIENTE ..........." +
+                "\n --------------------------------" +
+                "\n Nome: " + getNome() +
+                "\n CPF: " + getCpf() +
+                "\n Telefone: " + getTelefone()+
+                "\n Email: " + getEmail() +
+                "\n Data de Nascimento: " + getDataNascimento() +
+                "\n Endereço: " + getEndereco();
                 //"\n + getConsulta() +
                 //"\n" + getExame();
   

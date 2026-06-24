@@ -49,13 +49,15 @@ public class Medico extends Pessoa {
         this.consultorio = consultorio;
     }
     public String toString(){
-        return "\n .... MÉDICO ...." +
-                "\n Nome:" + getNome() +
-                "\n CPF:" + getCpf() +
-                "\n Telefone:" + getTelefone()+
-                "\n Email:" + getEmail() +
-                "\n CRM:" + getCrm() +
-                "\n Especialidade:" + getEspecialidade();
+        return  "\n ____________________________" +
+                "\n .........  MÉDICO  ........." +
+                "\n ----------------------------" +
+                "\n Nome: " + getNome() +
+                "\n CPF: " + getCpf() +
+                "\n Telefone: " + getTelefone()+
+                "\n Email: " + getEmail() +
+                "\n CRM: " + getCrm() +
+                "\n Especialidade: " + getEspecialidade();
                 //"\n" + getConsulta() +
                 //"\n" + getConsultorio();
     }

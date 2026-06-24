@@ -56,12 +56,14 @@ public class Exame implements InterCalculaExame{
         return (valor * PERCENTUAL_CLINICA);
     }
     public String toString(){
-        return "\n ..... EXAME ....." +
-                "\n Identificação:" + getIdExame() +
-                "\n Tipo:" + getTipoExame() +
-                "\n Resultado:" + getResultado() +
-                "\n Valor:" + getValor() +
-                "\n ...................................." +
+        return  "\n _________________________" +
+                "\n ........  EXAME  ........" +
+                "\n -------------------------" +
+                "\n Identificação: " + getIdExame() +
+                "\n Tipo: " + getTipoExame() +
+                "\n Resultado: " + getResultado() +
+                "\n Valor: " + getValor() +
+                "\n ........................." +
                 "\n Valor do Exame: " + calcularValorExame() +
                 "\n Repasse Médico: " + calcularRepasseMedico() +
                 "\n Lucro da Clínica: " + calcularLucroClinica();

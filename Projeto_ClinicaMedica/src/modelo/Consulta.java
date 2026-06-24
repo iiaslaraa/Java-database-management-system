@@ -37,9 +37,11 @@ public class Consulta {
         this.hora = hora;
     }
     public String toString(){
-        return "\n .... CONSULTA ...." +
-                "\n Identificação:" + getIdConsulta() +
-                "\n Data:" + getData() +
-                "\n Hora:" + getHora();
+        return "\n ___________________" +
+                "\n .... CONSULTA ...." +
+                "\n -------------------" +
+                "\n Identificação: " + getIdConsulta() +
+                "\n Data: " + getData() +
+                "\n Hora: " + getHora();
     }
 }

@@ -37,9 +37,11 @@ public class Consultorio {
         this.corredor = corredor;
     }
     public String toString(){
-        return "\n .... CONSULTÓRIO ...." +
-                "\n Nome:" + getNome() +
-                "\n Número:" + getNumero() +
-                "\n Corredor:" + getCorredor();
+        return "\n _____________________" +
+                "\n .... CONSULTÓRIO ...." +
+                "\n ---------------------" +
+                "\n Nome: " + getNome() +
+                "\n Número: " + getNumero() +
+                "\n Corredor: " + getCorredor();
     }
 }
