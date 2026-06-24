@@ -3,7 +3,6 @@
 -- Host: 127.0.0.1    Database: projetoclinicamedica
 -- ------------------------------------------------------
 -- Server version	5.5.5-10.4.32-MariaDB
-
 CREATE DATABASE IF NOT EXISTS projetoclinicamedica;
 USE projetoclinicamedica;
 
@@ -96,7 +95,7 @@ CREATE TABLE `exame` (
 
 LOCK TABLES `exame` WRITE;
 /*!40000 ALTER TABLE `exame` DISABLE KEYS */;
-INSERT INTO `exame` VALUES (1,'Hemograma','Normal',80),(2,'Raio-X','Sem alterações',150),(3,'Ressonância','Em análise',850),(11,'Ultrassom','Sem alterações',220);
+INSERT INTO `exame` VALUES (1,'Hemograma','Normal',80),(2,'Raio-X','Sem alterações',150),(3,'Ressonância','Em análise',850);
 /*!40000 ALTER TABLE `exame` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -156,6 +155,7 @@ CREATE TABLE `medico_exame` (
 
 LOCK TABLES `medico_exame` WRITE;
 /*!40000 ALTER TABLE `medico_exame` DISABLE KEYS */;
+INSERT INTO `medico_exame` VALUES ('10101010101',1),('20202020202',2),('77777777777',3);
 /*!40000 ALTER TABLE `medico_exame` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -183,6 +183,7 @@ CREATE TABLE `medico_paciente` (
 
 LOCK TABLES `medico_paciente` WRITE;
 /*!40000 ALTER TABLE `medico_paciente` DISABLE KEYS */;
+INSERT INTO `medico_paciente` VALUES ('10101010101','11111111111'),('20202020202','22222222222'),('77777777777','33333333333');
 /*!40000 ALTER TABLE `medico_paciente` ENABLE KEYS */;
 UNLOCK TABLES;
 
@@ -239,6 +240,7 @@ CREATE TABLE `paciente_exame` (
 
 LOCK TABLES `paciente_exame` WRITE;
 /*!40000 ALTER TABLE `paciente_exame` DISABLE KEYS */;
+INSERT INTO `paciente_exame` VALUES ('22222222222',2),('33333333333',3);
 /*!40000 ALTER TABLE `paciente_exame` ENABLE KEYS */;
 UNLOCK TABLES;
 /*!40103 SET TIME_ZONE=@OLD_TIME_ZONE */;
@@ -251,4 +253,4 @@ UNLOCK TABLES;
 /*!40101 SET COLLATION_CONNECTION=@OLD_COLLATION_CONNECTION */;
 /*!40111 SET SQL_NOTES=@OLD_SQL_NOTES */;
 
--- Dump completed on 2026-06-22 21:14:46
+-- Dump completed on 2026-06-24 13:40:04
