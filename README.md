@@ -74,12 +74,12 @@ O projeto está sendo desenvolvido de forma incremental, acompanhando as etapas 
 | Levantamento de Requisitos | ✅ Concluído |
 | Modelagem do Banco de Dados | ✅ Concluído |
 | Scripts SQL | ✅ Concluído |
-| Modelagem UML | 🚧 Em desenvolvimento |
-| Desenvolvimento em Java | 🚧 Em desenvolvimento |
-| Integração JDBC | ⏳ Planejado |
-| Camada DAO | ⏳ Planejado |
-| Operações CRUD | ⏳ Planejado |
-| Testes | ⏳ Planejado |
+| Modelagem UML | ✅ Concluído |
+| Desenvolvimento em Java | ✅ Concluído |
+| Integração JDBC | ✅ Concluído |
+| Camada DAO | ✅ Concluído |
+| Operações CRUD | ✅ Concluído |
+| Testes | ✅ Concluído |
 | Documentação Final | ⏳ Planejado |
 
 ---
@@ -88,14 +88,14 @@ O projeto está sendo desenvolvido de forma incremental, acompanhando as etapas 
 
 | Categoria | Tecnologia | Status |
 |:-----------|:-----------|:------:|
-| Linguagem | Java | 🚧 |
+| Linguagem | Java | ✅ |
 | Banco de Dados | MySQL | ✅ |
 | Linguagem SQL | SQL | ✅ |
 | Modelagem | MySQL Workbench | ✅ |
-| UML | Astah Professional | 🚧 |
+| UML | Astah Professional | ✅ |
 | Versionamento | Git | ✅ |
 | Repositório | GitHub | ✅ |
-| IDE | NetBeans | 🚧 |
+| IDE | NetBeans | ✅ |
 
 ---
 
@@ -191,13 +191,13 @@ Os diagramas serão adicionados ao repositório conforme forem finalizados.
 | v0.1.0 | Planejamento do Projeto | ✅ |
 | v0.2.0 | Modelagem do Banco de Dados | ✅ |
 | v0.3.0 | Scripts SQL | ✅ |
-| v0.4.0 | Modelagem UML | 🚧 |
-| v0.5.0 | Estrutura Inicial em Java | 🚧 |
-| v0.6.0 | Integração JDBC | ⏳ |
-| v0.7.0 | Implementação da Camada DAO | ⏳ |
-| v0.8.0 | Operações CRUD | ⏳ |
-| v0.9.0 | Testes da Aplicação | ⏳ |
-| v1.0.0 | Primeira Versão Estável | ⏳ |
+| v0.4.0 | Modelagem UML | ✅ |
+| v0.5.0 | Estrutura Inicial em Java | ✅ |
+| v0.6.0 | Integração JDBC | ✅ |
+| v0.7.0 | Implementação da Camada DAO | ✅ |
+| v0.8.0 | Operações CRUD | ✅ |
+| v0.9.0 | Testes da Aplicação | ✅ |
+| v1.0.0 | Primeira Versão Estável | ✅ |
 
 
 ---
@@ -221,9 +221,9 @@ As próximas etapas previstas para o desenvolvimento do projeto incluem:
 | Documento | Status |
 |:-----------|:------:|
 | README | ✅ |
-| Banco de Dados | 🚧 |
-| UML | 🚧 |
-| Arquitetura | ⏳ |
+| Banco de Dados | ✅ |
+| UML | ✅ |
+| Arquitetura | ✅ |
 | CHANGELOG | ⏳ |
 | ROADMAP | ⏳ |
 
